@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carregando...</title>
+    <script>
+        setTimeout(() => {
+            document.getElementById("content").style.display = "block";
+            document.getElementById("loading").style.display = "none";
+        }, 5000); // 5 segundos de atraso
+    </script>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+        #content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading">
+        <h1>Carregando... Aguarde</h1>
+    </div>
+    <div id="content">
+        <h1>Erro Comum no Marketing</h1>
+        <p>Um site que demora a carregar afasta seus clientes! 🚀</p>
+    </div>
+</body>
+</html>
